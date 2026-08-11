@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Project Documentation - Muhammad Atif</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+    
+    @page {
+      size: A4;
+      margin: 20mm 15mm 20mm 15mm;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1e293b;
+      background-color: #ffffff;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+    }
+
+    .header-container {
+      border-bottom: 3px solid #7bc74a;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .header-title h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 5px 0;
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+    }
+
+    .header-title p {
+      font-size: 14px;
+      color: #475569;
+      margin: 0;
+      font-weight: 600;
+    }
+
+    .header-meta {
+      text-align: right;
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    .badge-brand {
+      display: inline-block;
+      background-color: #0b080c;
+      color: #7bc74a;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      border-left: 4px solid #7bc74a;
+      padding-left: 10px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .overview-box {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+    }
+
+    .overview-box p {
+      margin: 0 0 10px 0;
+    }
+    
+    .overview-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+
+    th {
+      background-color: #0f172a;
+      color: #ffffff;
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 600;
+      border: 1px solid #0f172a;
+    }
+
+    td {
+      padding: 9px 12px;
+      border: 1px solid #e2e8f0;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    .tech-tag {
+      display: inline-block;
+      background-color: #e2e8f0;
+      color: #334155;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      margin: 2px;
+    }
+
+    .tech-tag-highlight {
+      background-color: #dcfce7;
+      color: #166534;
+      border: 1px solid #86efac;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .feature-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 12px 15px;
+    }
+
+    .feature-card h4 {
+      margin: 0 0 5px 0;
+      font-size: 13px;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+    }
+
+    .feature-card p {
+      margin: 0;
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    .footer {
+      margin-top: 30px;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 11px;
+      color: #94a3b8;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-container">
+    <div class="header-title">
+      <span class="badge-brand">CODENTRA ELECTRONICS</span>
+      <h1>Portfolio Project Documentation</h1>
+      <p>Muhammad Atif — Creative Web Developer & Video Editor</p>
+    </div>
+    <div class="header-meta">
+      <strong>Version:</strong> 1.0.0<br>
+      <strong>Year:</strong> 2026<br>
+      <strong>Framework:</strong> React + Vite + Three.js
+    </div>
+  </div>
+
+  <div class="overview-box">
+    <h3 style="margin-top:0; color:#0f172a; font-size:14px;">📌 Project Overview</h3>
+    <p>This project is a high-performance, interactive 3D portfolio website built for <strong>Muhammad Atif</strong>. It showcases web development projects, video editing experience, skillset, and career achievements with immersive 3D graphics, smooth scroll-driven animations, and a customized brand design theme.</p>
+  </div>
+
+  <div class="section-title">🛠️ Complete Technology Stack</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Category</th>
+        <th style="width: 35%;">Technology / Library</th>
+        <th style="width: 40%;">Purpose & Usage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Frontend Framework</strong></td>
+        <td><span class="tech-tag tech-tag-highlight">React v18.3.1</span></td>
+        <td>Component-based UI architecture, state management, and page structure.</td>
+      </tr>
+      <tr>
+        <td><strong>Language</strong></td>
+        <td><span class="tech-tag tech-tag-highlight">TypeScript v5.5.3</span></td>
+        <td>Strong type safety, clean code structure, and bug prevention.</td>
+      </tr>
+      <tr>
+        <td><strong>Build Tool & Server</strong></td>
+        <td><span class="tech-tag">Vite v5.4.1</span></td>
+        <td>Lightning-fast HMR dev server and optimized production bundling.</td>
+      </tr>
+      <tr>
+        <td><strong>3D Graphics Engine</strong></td>
+        <td><span class="tech-tag tech-tag-highlight">Three.js v0.168.0</span></td>
+        <td>WebGL 3D graphics rendering engine for interactive 3D elements.</td>
+      </tr>
+      <tr>
+        <td><strong>React 3D Ecosystem</strong></td>
+        <td>
+          <span class="tech-tag">@react-three/fiber</span><br>
+          <span class="tech-tag">@react-three/drei</span><br>
+          <span class="tech-tag">@react-three/postprocessing</span>
+        </td>
+        <td>Declarative React components for 3D lights, cameras, models (.glb/.hdr), physics, and post-processing shaders.</td>
+      </tr>
+      <tr>
+        <td><strong>Animation Engine</strong></td>
+        <td>
+          <span class="tech-tag tech-tag-highlight">GSAP v3.12.7</span><br>
+          <span class="tech-tag">ScrollTrigger</span>
+        </td>
+        <td>Timeline animations, scroll-driven transitions, and interactive UI motion.</td>
+      </tr>
+      <tr>
+        <td><strong>3D Asset Compression</strong></td>
+        <td><span class="tech-tag">Draco Decoder</span></td>
+        <td>Decodes compressed 3D GLTF models for fast page load speed.</td>
+      </tr>
+      <tr>
+        <td><strong>UI Icons & Components</strong></td>
+        <td>
+          <span class="tech-tag">react-icons v5.3.0</span><br>
+          <span class="tech-tag">react-fast-marquee</span>
+        </td>
+        <td>Social media icons, navigation indicators, and continuous scrolling text banners.</td>
+      </tr>
+      <tr>
+        <td><strong>Analytics</strong></td>
+        <td><span class="tech-tag">@vercel/analytics</span></td>
+        <td>Real-time visitor traffic and performance tracking on Vercel deployment.</td>
+      </tr>
+      <tr>
+        <td><strong>Styling System</strong></td>
+        <td><span class="tech-tag">HTML5 & Vanilla CSS3</span></td>
+        <td>Custom theme tokens, CSS Grid, Flexbox, responsive typography, and glowing green accent theme.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">⚡ Key Features & Highlights</div>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h4>🎮 Interactive 3D Character Scene</h4>
+      <p>Features an interactive 3D model with lighting, shadow controls, and environment lighting (.hdr).</p>
+    </div>
+    <div class="feature-card">
+      <h4>✨ Smooth Scroll & Motion FX</h4>
+      <p>ScrollTrigger powered animations for smooth section reveals, text splitting, and work showcases.</p>
+    </div>
+    <div class="feature-card">
+      <h4>🎯 Codentra Brand Theme</h4>
+      <p>Custom Codentra logo branding with a dark steel gray and glowing green accent aesthetic.</p>
+    </div>
+    <div class="feature-card">
+      <h4>📱 Fully Responsive Design</h4>
+      <p>Seamless adaptability across desktop monitors, laptops, tablets, and mobile devices.</p>
+    </div>
+    <div class="feature-card">
+      <h4>💼 Comprehensive Experience</h4>
+      <p>Highlights web development, video editing (Premiere Pro, After Effects), and marketing roles.</p>
+    </div>
+    <div class="feature-card">
+      <h4>📫 Direct Contact & Social Links</h4>
+      <p>Integrated contact details (+92 325 0015084, atifmughal00150@gmail.com) and social media handles.</p>
+    </div>
+  </div>
+
+  <div class="section-title">📁 Project Structure</div>
+
+  <table style="margin-bottom: 10px;">
+    <thead>
+      <tr>
+        <th style="width: 30%;">Directory / File</th>
+        <th style="width: 70%;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>src/components/</code></td>
+        <td>Contains modular React components (Navbar, Landing, About, Work, Career, Contact, SocialIcons, Character).</td>
+      </tr>
+      <tr>
+        <td><code>src/components/styles/</code></td>
+        <td>Dedicated CSS files for each UI component ensuring scope isolation.</td>
+      </tr>
+      <tr>
+        <td><code>public/models/</code></td>
+        <td>3D models (.glb), environment maps (.hdr), and encrypted assets.</td>
+      </tr>
+      <tr>
+        <td><code>public/images/</code></td>
+        <td>Brand logos (Codentra SVG & PNG), tech icons, and work showcase placeholders.</td>
+      </tr>
+      <tr>
+        <td><code>index.html & index.css</code></td>
+        <td>Main entry HTML document and global CSS variables/design tokens.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    Documentation Generated for <strong>Muhammad Atif Portfolio</strong> | Codentra Electronics © 2026
+  </div>
+
+</body>
+</html>
